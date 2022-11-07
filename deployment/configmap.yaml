@@ -6,6 +6,16 @@ data:
   # property-like keys; each key maps to a simple value
   player_initial_lives: "3"
   ui_properties_file_name: "user-interface.properties"
-  url_list: |
-    - "KEPI_KEY" : "Hello"
-    - "KPI_KEY" : "Bye"
+  #Dictionary json
+  url_list1: "{'KEPI_KEY': 'Https://1' , 'KPI_KEY': 'Https://2'}"
+  # list jason
+  abc: "[41, 58, 63]"
+  #dictionary in yaml
+  url_list: |       
+    KEPI_KEY: "Https://1"
+    KPI_KEY: "Https://2"
+  
+  #list in yaml
+  filter_list: |
+    - KEPI_KEY
+    - KPI_KEY

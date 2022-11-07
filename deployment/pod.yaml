@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   name: test-pod
 spec:
+  restartPolicy: Never
   containers:
     - name: demo
       image: bsrk236/test:latest
